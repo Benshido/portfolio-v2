@@ -1,0 +1,31 @@
+:root {
+    --background: #121212;
+    --nav: #1f1f1f;
+    --cards: #1e1e1e;
+    --buttons: #bb86fc;
+    --text: #e3e3e3;
+    --notes: #a0a0a0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--background);
+}
+
+#navigation {
+    background-color: var(--nav) !important;
+}
+
+.navbar-brand {
+    color: var(--text);
+}
+
+.row {
+    margin-top: auto;
+}
+
+.card {
+    margin-top: auto;
+    background-color: var(--cards);
+    color: var(--text);
+}
