@@ -99,3 +99,24 @@ a:hover {
     width: 300px;
     border: #bb86fc 1px solid;
 }
+
+/*other.html*/
+.accordion-body {
+    background-color: var(--background);
+    color: var(--text);
+}
+
+.accordion-button {
+    background-color: var(--background);
+    color: var(--text);
+}
+
+.accordion-button:hover {
+    background-color: var(--buttons);
+    color: var(--cards);
+}
+
+.accordion-button:focus {
+    background-color: var(--buttons);
+    color: var(--cards);
+}
