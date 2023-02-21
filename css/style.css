@@ -14,8 +14,8 @@ body {
 h1 {
     color: var(--text);
     text-align: center;
-    text-shadow: 2px 0 #121212, -2px 0 #121212, 0 2px #121212, 0 -2px #121212,
-    1px 1px #121212, -1px -1px #121212, 1px -1px #121212, -1px 1px #121212;
+    text-shadow: 3px 0 #121212, -3px 0 #121212, 0 3px #121212, 0 -3px #121212,
+    2px 2px #121212, -2px -2px #121212, 2px -2px #121212, -2px 2px #121212;
 }
 
 #navigation {
