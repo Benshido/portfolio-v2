@@ -45,6 +45,22 @@
                         <!--cards-->
                         <!--row 1-->
                         <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <!--Industry project-->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="assets/images/placeholder.jpg" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Industry Project (Upcoming project / TBA Spring 2023)
+                                        </h5>
+                                        <p class="card-text">TBA</p>
+                                        <br />
+                                        <p class="card-text">Keywords: TBA</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary"><b>MORE</b></a>
+                                    </div>
+                                </div>
+                            </div>
                             <!--Obstacle Course-->
                             <div class="col">
                                 <div class="card h-100">
@@ -179,22 +195,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--Industry project-->
-                            <div class="col">
-                                <div class="card h-100">
-                                    <img src="assets/images/placeholder.jpg" class="card-img-top">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Industry Project (Upcoming project / TBA Spring 2023)
-                                        </h5>
-                                        <p class="card-text">TBA</p>
-                                        <br />
-                                        <p class="card-text">Keywords: TBA</p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <a href="#" class="btn btn-primary"><b>MORE</b></a>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -220,14 +220,61 @@
                                         class="card-img-top">
                                     <div class="card-body">
                                         <h5 class="card-title">Vinylist (2022)</h5>
-                                        <p class="card-text">Placeholder</p>
+                                        <p class="card-text">During the 2nd semester at Fontys, I had to create a SOLID
+                                            CRUD website/app using ASP.NET MVC. The front-end is very basic because the
+                                            focus was just on the back-end of the site/app.</p>
                                         <br />
                                         <p class="card-text">Keywords: C#, ASP.NET MVC, SOLID, Bootstrap, Microsoft SQL
                                             Server</p>
                                     </div>
                                     <!-- Button trigger modal -->
                                     <div class="card-footer">
-                                        <a href="#" class="btn btn-primary"><b>MORE</b></a>
+                                        <a type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#vinylist"><b>MORE</b></a>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="vinylist" tabindex="-1" aria-labelledby="vinylist"
+                                        aria-hidden="true">
+                                        <div
+                                            class="modal-dialog modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="vinylistheader">Vinylist
+                                                    </h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="participation info border-bottom border-top">
+                                                        <br />
+                                                        <h3>Summary</h3>
+                                                        <p>During the 2nd semester at Fontys, I had to create a SOLID
+                                                            CRUD website/app using ASP.NET MVC. The front-end is very
+                                                            basic because the
+                                                            focus was just on the back-end of the site/app. The idea
+                                                            behind the site can be compared with Letterboxd, Discogs,
+                                                            etc.</p>
+                                                        <h3>Functionalities</h3>
+                                                        <ul>
+                                                            <li>Create/View/Update/Delete account</li>
+                                                            <li>Log in / log out</li>
+                                                            <li>Add/View/Update artists</li>
+                                                            <li>Add/View/Update albums/singles</li>
+                                                            <li>Add/View/Update existing vinyl</li>
+                                                            <li>Add/Delete vinyl to/from your list</li>
+                                                            <li>View your list</li>
+                                                            <li>Get items from database</li>
+                                                            <li>Sent items to database</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-primary"
+                                                        data-bs-dismiss="modal"><b>Close</b></button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -238,13 +285,55 @@
                                         class="card-img-top">
                                     <div class="card-body">
                                         <h5 class="card-title">Password Manager (2020)</h5>
-                                        <p class="card-text">Placeholder</p>
+                                        <p class="card-text">During semester 5 at ROC Ter AA, I had to create a password
+                                            manager that generates passwords and encrypts your vault.</p>
                                         <br />
                                         <p class="card-text">Keywords: C#, Winforms, Encryption</p>
                                     </div>
                                     <!-- Button trigger modal -->
                                     <div class="card-footer">
-                                        <a href="#" class="btn btn-primary"><b>MORE</b></a>
+                                        <a type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#passwordmanager"><b>MORE</b></a>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="passwordmanager" tabindex="-1"
+                                        aria-labelledby="passwordmanager" aria-hidden="true">
+                                        <div
+                                            class="modal-dialog modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="passwordmanagerheader">Password
+                                                        Manager
+                                                    </h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="participation info border-bottom border-top">
+                                                        <br />
+                                                        <h3>Summary</h3>
+                                                        <p>During semester 5 at ROC Ter AA, I had to create a password
+                                                            manager that generates passwords and encrypts your vault.
+                                                        </p>
+                                                        <h3>Functionalities</h3>
+                                                        <ul>
+                                                            <li>Create vault and save locally</li>
+                                                            <li>Open existing vault with master password</li>
+                                                            <li>Add/Edit/Delete/View items to/from vault</li>
+                                                            <li>Add/Edit/Delete/View categories to/from vault</li>
+                                                            <li>Copy necessary information from vault</li>
+                                                            <li>Generate passwords based on selection</li>
+                                                            <li>Encrypt vault</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-primary"
+                                                        data-bs-dismiss="modal"><b>Close</b></button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -255,13 +344,56 @@
                                         class="card-img-top">
                                     <div class="card-body">
                                         <h5 class="card-title">Float Plus (2021)</h5>
-                                        <p class="card-text">Placeholder</p>
+                                        <p class="card-text">At my graduation internship (Spinnov/Smartgoals), my
+                                            graduation assignment was to create an installer for their product called
+                                            the Float Plus.</p>
                                         <br />
-                                        <p class="card-text">Keywords: C#, Winforms, Vue.js, MySQL</p>
+                                        <p class="card-text">Keywords: C#, Winforms, MySQL</p>
                                     </div>
                                     <!-- Button trigger modal -->
                                     <div class="card-footer">
-                                        <a href="#" class="btn btn-primary"><b>MORE</b></a>
+                                        <a type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#floatplus"><b>MORE</b></a>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="floatplus" tabindex="-1" aria-labelledby="floatplus"
+                                        aria-hidden="true">
+                                        <div
+                                            class="modal-dialog modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="floatplusheader">Float Plus
+                                                    </h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="participation info border-bottom border-top">
+                                                        <br />
+                                                        <h3>Summary</h3>
+                                                        <p>At my graduation internship (Spinnov/Smartgoals), my
+                                                            graduation assignment was to create an installer for their
+                                                            product called
+                                                            the Float Plus. This installer is still being used in
+                                                            production.</p>
+                                                        <h3>Functionalities</h3>
+                                                        <ul>
+                                                            <li>Choose driver</li>
+                                                            <li>Scan QR-Code or manually insert it</li>
+                                                            <li>Install program to the device</li>
+                                                            <li>Sends a log to the database after installation with
+                                                                necessary information</li>
+                                                            <li>Manual</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-primary"
+                                                        data-bs-dismiss="modal"><b>Close</b></button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -275,13 +407,53 @@
                                         class="card-img-top">
                                     <div class="card-body">
                                         <h5 class="card-title">Blackjack (2021)</h5>
-                                        <p class="card-text">Placeholder</p>
+                                        <p class="card-text">During semester 1 at Fontys, I had to create multiple small
+                                            assignments for the Software class. One of these assignments was Blackjack.
+                                        </p>
                                         <br />
                                         <p class="card-text">Keywords: C#, Winforms</p>
                                     </div>
                                     <!-- Button trigger modal -->
                                     <div class="card-footer">
-                                        <a href="#" class="btn btn-primary"><b>MORE</b></a>
+                                        <a type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#blackjack"><b>MORE</b></a>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="blackjack" tabindex="-1" aria-labelledby="blackjack"
+                                        aria-hidden="true">
+                                        <div
+                                            class="modal-dialog modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="blackjackheader">Blackjack
+                                                    </h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="participation info border-bottom border-top">
+                                                        <br />
+                                                        <h3>Summary</h3>
+                                                        <p>During semester 1 at Fontys, I had to create multiple small
+                                                            assignments for the Software class. One of these assignments
+                                                            was Blackjack.</p>
+                                                        <h3>Functionalities</h3>
+                                                        <ul>
+                                                            <li>Save & load game</li>
+                                                            <li>Bet amount of money</li>
+                                                            <li>Hit, Stand and Double Down</li>
+                                                            <li>Random cards and keeps track of score</li>
+                                                            <li>Dealer logic</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-primary"
+                                                        data-bs-dismiss="modal"><b>Close</b></button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -292,13 +464,56 @@
                                         class="card-img-top">
                                     <div class="card-body">
                                         <h5 class="card-title">Duck Pond (2021)</h5>
-                                        <p class="card-text">Placeholder</p>
+                                        <p class="card-text">During semester 1 at Fontys, I had to create multiple small
+                                            assignments for the Software class. One of these assignments was Duck Pond.
+                                        </p>
                                         <br />
                                         <p class="card-text">Keywords: C#, Winforms</p>
                                     </div>
                                     <!-- Button trigger modal -->
                                     <div class="card-footer">
-                                        <a href="#" class="btn btn-primary"><b>MORE</b></a>
+                                        <a type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#duckpond"><b>MORE</b></a>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="duckpond" tabindex="-1" aria-labelledby="duckpond"
+                                        aria-hidden="true">
+                                        <div
+                                            class="modal-dialog modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="duckpondheader">Duck Pond
+                                                    </h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="participation info border-bottom border-top">
+                                                        <br />
+                                                        <h3>Summary</h3>
+                                                        <p>During semester 1 at Fontys, I had to create multiple small
+                                                            assignments for the Software class. One of these assignments
+                                                            was Duck Pond. Duck Pond is a sort of system where the
+                                                            user does not really do anything. The application is based
+                                                            on time and certain
+                                                            rules that will change the duck pond.</p>
+                                                        <h3>Functionalities</h3>
+                                                        <ul>
+                                                            <li>Ducks, Frogs and white storks age and die.</li>
+                                                            <li>Randomized genders</li>
+                                                            <li>White stork eats frogs that are not the same gender</li>
+                                                            <li>Ask the white stork about the eaten frog</li>
+                                                            <li>Ask gender of ducks</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-primary"
+                                                        data-bs-dismiss="modal"><b>Close</b></button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -308,13 +523,71 @@
                                     <img src="assets/images/softwareprojects/ibt/screenshotv2.png" class="card-img-top">
                                     <div class="card-body">
                                         <h5 class="card-title">IBT Management System (2019)</h5>
-                                        <p class="card-text">Placeholder</p>
+                                        <p class="card-text">During my internship at DAF Trucks N.V. I had to create a
+                                            management system for the ICT (Industrial Control Techniques) department
+                                            called Intelligent Project Control and Reporting.</p>
                                         <br />
                                         <p class="card-text">Keywords: C#, WPF, Microsoft SQL Server</p>
                                     </div>
                                     <!-- Button trigger modal -->
                                     <div class="card-footer">
-                                        <a href="#" class="btn btn-primary"><b>MORE</b></a>
+                                        <a type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#ibt"><b>MORE</b></a>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="ibt" tabindex="-1" aria-labelledby="ibt"
+                                        aria-hidden="true">
+                                        <div
+                                            class="modal-dialog modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="ibtheader">IBT Management System
+                                                    </h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="participation info border-bottom border-top">
+                                                        <br />
+                                                        <h3>Summary</h3>
+                                                        <p>During my internship at DAF Trucks N.V. I had to create a
+                                                            management system for the ICT (Industrial Control
+                                                            Techniques) department
+                                                            called Intelligent Project Control and Reporting. Unlike
+                                                            other projects, I still have a lot of information and
+                                                            screenshots of this project. I will add these later on. In
+                                                            short, it's an order system where certain factories inside
+                                                            DAF can order assistance from the ICT department. This is
+                                                            probably one of the biggest software projects I have worked
+                                                            on.
+                                                            Sadly, they decided not to use it because of the
+                                                            inefficiency of the code. Which I understand due to me being
+                                                            new to Software development (only 1 year experience at that
+                                                            point).</p>
+                                                        <h3>Functionalities</h3>
+                                                        <ul>
+                                                            <li>Create account with different roles.</li>
+                                                            <li>Fill in forms (Order assistance or evaluation).</li>
+                                                            <li>View multiple overviews with a lot of information.</li>
+                                                            <li>Keep track of KPI's (Key Performance Indicators)</li>
+                                                            <li>Logs</li>
+                                                            <li>Manual</li>
+                                                            <li>Search functions</li>
+                                                            <li>Admin role can view users and delete them</li>
+                                                            <li>Orders have to be reviewed and accepted before they can
+                                                                be worked on.</li>
+                                                            <li>Application gets and sets information from/to the
+                                                                database</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-primary"
+                                                        data-bs-dismiss="modal"><b>Close</b></button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -338,6 +611,74 @@
                         <!--cards-->
                         <!--row 1-->
                         <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <!--Float Plus dashboard, enexis, qcare-->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="assets/images/webprojects/fp+qc+en/screenshot.jpg" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Float Plus Dashboard (2021)</h5>
+                                        <p class="card-text">During my graduation internship, I also had to create
+                                            multiple websites using Vue.js and Laravel. Float Plus dashboard was a part
+                                            of my graduation assignment.</p>
+                                        <br />
+                                        <p class="card-text">Keywords: Vue.js, Laravel, Bootstrap, MySQL</p>
+                                    </div>
+                                    <!-- Button trigger modal -->
+                                    <div class="card-footer">
+                                        <a type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#floatplusdash"><b>MORE</b></a>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="floatplusdash" tabindex="-1"
+                                        aria-labelledby="floatplusdash" aria-hidden="true">
+                                        <div
+                                            class="modal-dialog modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="floatplusdashheader">Float Plus
+                                                        Dashboard
+                                                    </h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="participation info border-bottom border-top">
+                                                        <br />
+                                                        <h3>Summary</h3>
+                                                        <p>During my graduation internship, I also had to create
+                                                            multiple websites using Vue.js and Laravel. Float Plus
+                                                            dashboard was a part
+                                                            of my graduation assignment. After installing the program to
+                                                            the device all logs will be sent to the database. And the
+                                                            dashboard displays these logs. <br /> P.S. Ignore the
+                                                            numbers on
+                                                            the screenshot, I don't have access to this project and
+                                                            found my manual that I had made for the graduation
+                                                            assignment.</p>
+                                                        <h3>Functionalities</h3>
+                                                        <ul>
+                                                            <li>A select view inside the company had access to this
+                                                                dashboard</li>
+                                                            <li>View logs</li>
+                                                            <li>Switch between device (Float Plus Remote or Motor)</li>
+                                                            <li>Show statistics and filter these statistics based on
+                                                                dates</li>
+                                                            <li>Filter logs</li>
+                                                            <li>Show only scanned ID logs</li>
+                                                            <li>Get information from database</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-primary"
+                                                        data-bs-dismiss="modal"><b>Close</b></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <!--Cryptomania-->
                             <div class="col">
                                 <div class="card h-100">
@@ -345,13 +686,60 @@
                                         class="card-img-top">
                                     <div class="card-body">
                                         <h5 class="card-title">Cryptomania (2020)</h5>
-                                        <p class="card-text">Placeholder</p>
+                                        <p class="card-text">During semester 5 at ROC Ter AA, I had to create a
+                                            Cryptocurrency site that shows the current pricing. The pricing would
+                                            automatically update.</p>
                                         <br />
-                                        <p class="card-text">Keywords: Placeholder</p>
+                                        <p class="card-text">Keywords: Jquery, API, Mustache.js, Ajax, Bootstrap, MySQL
+                                        </p>
                                     </div>
                                     <!-- Button trigger modal -->
                                     <div class="card-footer">
-                                        <a href="#" class="btn btn-primary"><b>MORE</b></a>
+                                        <a type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#cryptomania"><b>MORE</b></a>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="cryptomania" tabindex="-1" aria-labelledby="cryptomania"
+                                        aria-hidden="true">
+                                        <div
+                                            class="modal-dialog modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="cryptomaniaheader">Cryptomania
+                                                    </h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="participation info border-bottom border-top">
+                                                        <br />
+                                                        <h3>Summary</h3>
+                                                        <p>During semester 5 at ROC Ter AA, I had to create a
+                                                            Cryptocurrency site that shows the current pricing. The
+                                                            pricing would
+                                                            automatically update. The user could then buy these coins
+                                                            and these would be stored in their cryptofolio. There was
+                                                            also an API used to keep track of the latest cryptocurrency
+                                                            news. <br /> P.S. I do not have access to
+                                                            the API's used in the project, so the screenshot is taken
+                                                            from a test account's cryptofolio.</p>
+                                                        <h3>Functionalities</h3>
+                                                        <ul>
+                                                            <li>Live view of cryptocurrencies using API</li>
+                                                            <li>Add (buy)/View/Edit/Delete from/to cryptofolio</li>
+                                                            <li>Latest crypto news shown by API</li>
+                                                            <li>Create account</li>
+                                                            <li>Get and sent information from/to database</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-primary"
+                                                        data-bs-dismiss="modal"><b>Close</b></button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -361,36 +749,104 @@
                                     <img src="assets/images/webprojects/dbmovies/screenshot.png" class="card-img-top">
                                     <div class="card-body">
                                         <h5 class="card-title">DBMovies (2019)</h5>
-                                        <p class="card-text">Placeholder</p>
+                                        <p class="card-text">During the 2nd semester at ROC Ter AA, I had to create a
+                                            movie site where information is shown and the user can give reviews.</p>
                                         <br />
                                         <p class="card-text">Keywords: PHP, HTML, CSS, MySQL</p>
                                     </div>
                                     <!-- Button trigger modal -->
                                     <div class="card-footer">
-                                        <a href="#" class="btn btn-primary"><b>MORE</b></a>
+                                        <a type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#dbmovies"><b>MORE</b></a>
                                     </div>
-                                </div>
-                            </div>
-                            <!--Float Plus dashboard, enexis, qcare-->
-                            <div class="col">
-                                <div class="card h-100">
-                                    <img src="assets/images/webprojects/fp+qc+en/screenshot.jpg" class="card-img-top">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Float Plus Dashboard, Enexis & QCare (2021)</h5>
-                                        <p class="card-text">Placeholder</p>
-                                        <br />
-                                        <p class="card-text">Keywords: Placeholder</p>
-                                    </div>
-                                    <!-- Button trigger modal -->
-                                    <div class="card-footer">
-                                        <a href="#" class="btn btn-primary"><b>MORE</b></a>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="dbmovies" tabindex="-1" aria-labelledby="dbmovies"
+                                        aria-hidden="true">
+                                        <div
+                                            class="modal-dialog modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="dbmoviesheader">DBMovies
+                                                    </h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="participation info border-bottom border-top">
+                                                        <br />
+                                                        <h3>Summary</h3>
+                                                        <p>During the 2nd semester at ROC Ter AA, I had to create a
+                                                            movie site where information is shown and the user can give
+                                                            reviews.</p>
+                                                        <h3>Functionalities</h3>
+                                                        <ul>
+                                                            <li>View movies based on categories</li>
+                                                            <li>Write and submit review of movie</li>
+                                                            <li>Get and sent information from/to database</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-primary"
+                                                        data-bs-dismiss="modal"><b>Close</b></button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <p>I have more web projects, but these ones listed are either most recent or the ones I am actually proud
+                        <p>I have more web projects, but these ones listed are either most recent or the ones I am
+                            actually proud
                             of! Sadly, there are also a handful of web projects I don't have access to anymore such as
                             internship projects.</p>
+                    </div>
+                </div>
+            </div>
+            <!--Blender-->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFour">
+                        <strong>Blender</strong>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingFour">
+                    <div class="accordion-body">
+                        <p>I'm currently trying to improve my skills with Blender. I'll post my work here.</p>
+                        <!--row 1-->
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="assets/images/blender/tranquillandscape.png" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Tranquil Landscape</h5>
+                                        <p>Full animation can be found here: </p><a href="https://www.youtube.com/watch?v=tJBZ_678Tn0" target="_blank">Tranquil Landscape</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Cryptomania-->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="assets/images/blender/IsometricBedroom.png" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Isometric Bedroom</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--DBMovies-->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="assets/images/blender/donutandmug2.png" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Donut & Mug</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
