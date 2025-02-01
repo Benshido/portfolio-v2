@@ -31,7 +31,7 @@ a:hover {
 }
 
 #jumbotronheader {
-    background-image: url('../assets/images/soulgriever/header2.jpg');
+    background-image: url('../assets/images/soulgriever/header3.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     justify-content: center;
@@ -98,6 +98,10 @@ a:hover {
 #aboutmeimage {
     width: 300px;
     border: #bb86fc 1px solid;
+}
+
+#horizontal-line {
+    color: #ffffff;
 }
 
 /*other.html*/
